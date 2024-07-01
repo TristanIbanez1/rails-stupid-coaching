@@ -1,0 +1,6 @@
+<h1>Ask your coach anything</h1>
+
+<%= form_tag answer_path, method: :get do %>
+  <%= text_field_tag :question, nil, placeholder: "Ask your question" %>
+  <%= submit_tag "Ask!" %>
+<% end %>
